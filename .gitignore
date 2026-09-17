@@ -1,0 +1,8 @@
+# Codex home contains credentials, conversations, runtime databases, caches,
+# generated artifacts, installed packages, and machine state. Ignore everything
+# unless it is explicitly approved for version control below.
+*
+
+!.gitignore
+!README.md
+!config.toml

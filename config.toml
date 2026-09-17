@@ -1,6 +1,350 @@
+model = "gpt-5.6-sol"
+model_reasoning_effort = "high"
+
+notify = ["/Users/zeraphim/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
+plan_mode_reasoning_effort = "xhigh"
 approval_policy = "on-request"
 approvals_reviewer = "auto_review"
 sandbox_mode = "workspace-write"
 
+[projects."/Users/zeraphim/Desktop/AWS_ML_Scholar"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/PORTFOLIO WEBSITE/jcdiamante-v2"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Zeraphim CV"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/CS/Programming/Python/AI/ADA"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/PH-SapinSapin"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Personal-Knowledge-Map"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/dep-data-engineering-open-track"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Learning/ToastMasters"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/Work/VaxLink/VaxLink-Alpha"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/gabaypoz-frontend"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/UTAustin---MSAI"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Slidev-Presentations"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/Business/VaxLink/VaxLink-Composition"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/Business/VaxLink"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/Business/VaxLink/VaxLink-MVP"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/mimic-iii"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Perseus-AI/perseus-ai"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/AgentSkills/zeraphim-skills-priv"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/amd-hackathon/ani-amd-hackathon"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/amd-hackathon"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/amd-hackathon/context/act-2-top-scorers/codebase"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/mimic-iii-predicting-adult-icu-mortality"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/amd-hackathon/context/act-1-winners"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/AI_Assistant"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/AI_Assistant/ai-assistant"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-18/i-was-thinking-of-a-software"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/strimzi-kafka-operator"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/MKR-Thesis"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/culturehub"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/hermes-agent"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/PORTFOLIO WEBSITE"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/AgentSkills"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/AgentSkills/Zeraphim-Skills"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/bettergov"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/zed"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/.oh-my-zsh"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/GitLab-AI-Hackathon-WanShiTong"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-29/how"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-29/in-m"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-29/how-2"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-30/tel"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-30/can-you-tell-me-what-s"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-30/https-www-youtube-com-watch-v"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-30/in"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-31/whe"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-31/in-t"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-31/in-t-2"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-07-31/how-many-prs-merged-in-github"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-08-01/i"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-08-01/ma"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-08-01/i-wa"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-08-01/in"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-08-01/now"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/.pi"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-08-08/right-now-can-you-give-me"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-08-13/now"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/supertuxkart-visual-qa"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/context-before-crisis"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/orpheus-tts-local"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/context-bank"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/PH-SapinSapin"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/ExperimentalMachines"]
+trust_level = "trusted"
+
+[marketplaces.openai-bundled]
+source_type = "local"
+source = "/Users/zeraphim/.codex/.tmp/bundled-marketplaces/openai-bundled"
+
+[marketplaces.openai-primary-runtime]
+source_type = "local"
+source = "/Users/zeraphim/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime"
+
+[plugins."documents@openai-primary-runtime"]
+enabled = true
+
+[plugins."spreadsheets@openai-primary-runtime"]
+enabled = true
+
+[plugins."presentations@openai-primary-runtime"]
+enabled = true
+
+[plugins."pdf@openai-primary-runtime"]
+enabled = true
+
+[plugins."template-creator@openai-primary-runtime"]
+enabled = true
+
+[desktop]
+appearanceTheme = "system"
+appearanceDarkCodeThemeId = "material"
+selected-avatar-id = "null-signal"
+followUpQueueMode = "queue"
+avatar-overlay-mascot-width-px = 161
+dock-icon-preference = "app-default"
+appearanceLightCodeThemeId = "github"
+conversationDetailMode = "STEPS_COMMANDS"
+usePointerCursors = false
+
+[desktop.appearanceLightChromeTheme]
+accent = "#0969da"
+contrast = 45
+ink = "#1f2328"
+opaqueWindows = false
+surface = "#ffffff"
+
+[desktop.appearanceLightChromeTheme.fonts]
+code = "MesloLGS NF"
+ui = "MesloLGS NF"
+
+[desktop.appearanceLightChromeTheme.semanticColors]
+diffAdded = "#1a7f37"
+diffRemoved = "#cf222e"
+skill = "#8250df"
+
+[desktop.appearanceDarkChromeTheme]
+accent = "#80cbc4"
+contrast = 60
+ink = "#eeffff"
+opaqueWindows = false
+surface = "#212121"
+
+[desktop.appearanceDarkChromeTheme.fonts]
+code = "MesloLGS NF"
+ui = "MesloLGS NF"
+
+[desktop.appearanceDarkChromeTheme.semanticColors]
+diffAdded = "#c3e88d"
+diffRemoved = "#f07178"
+skill = "#c792ea"
+
+[desktop.open-in-target-preferences]
+global = "sublimeText"
+
+[desktop.open-in-target-preferences.perPath]
+"/Users/zeraphim/Documents/Files/ThisIsZeraphim/dune-mentat" = "fileManager"
+"/Users/zeraphim/Documents/Files/Business/VaxLink/VaxLink-MVP" = "sublimeText"
+
+[features]
+js_repl = false
+
+[mcp_servers.node_repl]
+args = []
+command = "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node_repl"
+startup_timeout_sec = 120
+
+[mcp_servers.node_repl.env]
+NODE_REPL_NATIVE_PIPE_CONNECT_TIMEOUT_MS = "1000"
+NODE_REPL_NODE_MODULE_DIRS = "/Applications/ChatGPT.app/Contents/Resources/cua_node/lib/node_modules"
+NODE_REPL_NODE_PATH = "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node"
+NODE_REPL_TRUSTED_CODE_PATHS = "/Users/zeraphim/.codex:/Applications/ChatGPT.app/Contents/Resources/cua_node/lib/node_modules"
+CODEX_HOME = "/Users/zeraphim/.codex"
+BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab"
+BROWSER_USE_TINYSKY_ENABLED = "0"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = "Control the in-app browser in conjunction with the Browser Plugin."
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = "Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative."
+NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE = "Control desktop apps on macOS through Computer Use."
+BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
+BROWSER_USE_CODEX_APP_VERSION = "26.818.31338"
+NODE_REPL_TRUSTED_SERVICES = '{"browser":"/Users/zeraphim/.codex/plugins/cache/openai-bundled/browser/26.818.31338/scripts/browser-service.mjs","sky":"@oai/sky/service"}'
+CODEX_CLI_PATH = "/Applications/ChatGPT.app/Contents/Resources/codex"
+
+[mcp_servers.computer-use]
+command = "./Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient"
+args = ["mcp"]
+cwd = "."
+enabled = false
+
+[mcp_servers.openaiDeveloperDocs]
+url = "https://developers.openai.com/mcp"
+
 [tui]
+alternate_screen = "never"
+session_picker_view = "dense"
 status_line = ["model-with-reasoning", "project-name", "thread-name", "context-used", "used-tokens", "context-window-size"]
+status_line_use_colors = true
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
+"gpt-5.6-sol" = 4
+gpt-6-astra = 4
+
+[notice.model_migrations]
+"gpt-5.4" = "gpt-5.5"
+
+[hooks.state]
+
+[hooks.state."vercel-plugin@plugins-cli:hooks/hooks.json:session_start:0:0"]
+trusted_hash = "sha256:146eedfa10f48cfcb6d2cfb2c8fc36e8d8bb8751d2167ba205fa0b967c8a7f6e"
+
+[hooks.state."vercel-plugin@plugins-cli:hooks/hooks.json:session_start:0:1"]
+trusted_hash = "sha256:1b7bf88920f9d93c5bd508088299ba969739865da51a3043b931819328abf7d5"
+
+[hooks.state."vercel-plugin@plugins-cli:hooks/hooks.json:session_start:0:2"]
+trusted_hash = "sha256:7c0c78b3d111a81aed993357e32d997f3996cf32bbf4ab475efe9ce08772673a"
+enabled = true
+
+[hooks.state."vercel-plugin@plugins-cli:hooks/hooks.json:session_end:0:0"]
+trusted_hash = "sha256:9414154878f7ed6af2691aa2d61f3c57d866fb27b65aa638e7ddd635a2cc75a5"
+
+[shell_environment_policy.set]
+NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S = "8e86beb821b9afc846211798e0113bd4b9e79312dfcd135eb447bdb154f64071"
+
+[plugins."vercel-plugin@plugins-cli"]
+enabled = true
+
+[plugins."sites@openai-bundled"]
+enabled = true
+
+[plugins."visualize@openai-bundled"]
+enabled = true
+
+[plugins."browser@openai-bundled"]
+enabled = true
+
+[plugins."codex-app-tools@openai-bundled"]
+enabled = true
