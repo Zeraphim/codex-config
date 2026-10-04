@@ -303,6 +303,7 @@ enabled = false
 url = "https://developers.openai.com/mcp"
 
 [tui]
+vim_mode_default = true
 alternate_screen = "never"
 session_picker_view = "dense"
 status_line = ["model-with-reasoning", "project-name", "thread-name", "context-used", "used-tokens", "context-window-size"]
