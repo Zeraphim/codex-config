@@ -101,7 +101,7 @@ eli = `Explain this like I'm 18. Simplify your language. Shorten your response.`
 foc = `Focus on what matters most here. Whats the true signal? Whats the true value? Boil your response down into the most important thing we need to focus on.`
 ref = `Rewrite your responses with reference points`
 rec = `Catch me up on this conversation. Answer four questions, one line each: What was the goal? What is done? What is in progress or blocked? What is the next action? Ground every answer in the conversation and files, do not guess.`
-sig = `Read /Users/zeraphim/Documents/Files/ThisIsZeraphim/context-bank/.github/AGENTS.md and .agents/skills/backwards-daily-signal/SKILL.md in that context-bank. Use auto-capture mode to save qualifying completed outcomes evidenced in this conversation, without confirmation. Skip duplicates. Use actual activity dates, asking if a past date is unclear. Continue capture at future completed milestones.`
+sig = `Resolve this device's context-bank using section 7. If unavailable, explain that capture is not configured or accessible on this device and stop capture without blocking the main task. Otherwise read its .github/AGENTS.md and .agents/skills/backwards-daily-signal/SKILL.md. Use auto-capture mode to save qualifying completed outcomes evidenced in this conversation, without confirmation. Skip duplicates. Use actual activity dates, asking if a past date is unclear. Continue capture at future completed milestones.`
 cap = `Commit and push changes`
 capr = `Commit and push changes then release`
 wtw = `Work in a new worktree`
@@ -115,11 +115,29 @@ Run this section only when `HERDR_ENV=1` and the user asks for panes, tabs, spli
 
 ### 7. Automatic Daily Signal Capture
 
+Context-bank is an optional device-local integration. Resolve its root from nonempty
+`CONTEXT_BANK_ROOT`, otherwise the `root` field of `~/.config/context-bank/settings.json`
+(JSON object with exactly `schema_version: 1` and `root`). Accept an absolute path or
+expand `~/` against this device's home. Do not guess a path, search other checkouts,
+clone a repository, or fall back after an invalid explicit setting. These instructions
+work without the setup helper being installed.
+
+If configuration is absent/invalid, the checkout is inaccessible, or required capture
+files are missing, quietly skip automatic capture for this milestone. An explicit `sig`
+request reports the reason once. Setup is optional and must not block the main task.
+Never queue session evidence, copy it elsewhere, or infer goal alignment without the
+current goals. From zeraphim-skills-priv, configure an existing checkout with
+`python3 scripts/setup-integrations.py setup context-bank --root /absolute/context-bank`.
+
 At a completed task milestone, before the final response, check whether the session
 produced a bounded outcome with actual proof that directly advances an Active goal
-in `/Users/zeraphim/Documents/Files/ThisIsZeraphim/context-bank/narrative/GOALS.md`.
+in `<resolved-root>/narrative/GOALS.md`.
 When it plausibly qualifies, read that context-bank's canonical `.github/AGENTS.md` and
 `.agents/skills/backwards-daily-signal/SKILL.md`, then use its `auto-capture` mode.
+Resolve the skill's references and writer relative to that checkout, including any
+machine-specific example paths. Check that its auto-capture reference, shared writer,
+and required local resources are readable before attempting capture. Follow the source
+project's confidentiality rules before transferring evidence into this personal repository.
 JC authorizes saving qualifying completed signals without further confirmation,
 from any project or harness. This authorization covers only daily records, not
 goals, opinions, achievements, metrics, publication, commits, or pushes.

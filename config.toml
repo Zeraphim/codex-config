@@ -1,4 +1,4 @@
-model = "gpt-5.6-sol"
+model = "gpt-6.1-sol"
 model_reasoning_effort = "high"
 
 notify = ["/Users/zeraphim/.codex/computer-use/Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient", "turn-ended"]
@@ -6,6 +6,10 @@ plan_mode_reasoning_effort = "xhigh"
 approval_policy = "on-request"
 approvals_reviewer = "auto_review"
 sandbox_mode = "workspace-write"
+
+
+[sandbox_workspace_write]
+writable_roots = ["/Users/zeraphim/Documents/Files/ThisIsZeraphim/context-bank/strategy/daily"]
 
 [projects."/Users/zeraphim/Desktop/AWS_ML_Scholar"]
 trust_level = "trusted"
@@ -196,6 +200,57 @@ trust_level = "trusted"
 [projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/ExperimentalMachines"]
 trust_level = "trusted"
 
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/vibecamp"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/vibecamp/culturehub"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/Business/SEER-Thesis"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/.config/nvim"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/.config/herdr"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/ani-amd-hackathon-priv"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Hackathon/nebius-nvidia"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Desktop/ScholarSprint"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/vibecamp/filcoop"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/vibecamp/filcoop/filcoop"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Files/ThisIsZeraphim/Open Source/vibecamp/culturehub/culturehub"]
+trust_level = "trusted"
+
+[projects."/private/var/folders/5c/5m3hrkhd4gj4b_3jgk667flr0000gn/T/herdr-lab-b6b6aojs/repo"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-10-01/can"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/Documents/Codex/2026-10-01/can-y"]
+trust_level = "trusted"
+
+[projects."/Users/zeraphim/.codex"]
+trust_level = "trusted"
+
 [marketplaces.openai-bundled]
 source_type = "local"
 source = "/Users/zeraphim/.codex/.tmp/bundled-marketplaces/openai-bundled"
@@ -284,13 +339,14 @@ NODE_REPL_NODE_PATH = "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin
 NODE_REPL_TRUSTED_CODE_PATHS = "/Users/zeraphim/.codex:/Applications/ChatGPT.app/Contents/Resources/cua_node/lib/node_modules"
 CODEX_HOME = "/Users/zeraphim/.codex"
 BROWSER_USE_AVAILABLE_BACKENDS = "chrome,iab"
-BROWSER_USE_TINYSKY_ENABLED = "0"
-NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = "Control the in-app browser in conjunction with the Browser Plugin."
-NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = "Control the Chrome browser in conjunction with the Chrome Plugin. Prefer this method of controlling Chrome over alternatives (such as Computer Use) unless the user explicitly mentions an alternative."
-NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE = "Control desktop apps on macOS through Computer Use."
+BROWSER_USE_TINYSKY_ENABLED = "1"
+NODE_REPL_INSTRUCTIONS_USE_CASE_BROWSER = ""
+NODE_REPL_INSTRUCTIONS_USE_CASE_CHROME = ""
+NODE_REPL_INSTRUCTIONS_USE_CASE_COMPUTER_USE = ""
 BROWSER_USE_CODEX_APP_BUILD_FLAVOR = "prod"
-BROWSER_USE_CODEX_APP_VERSION = "26.818.31338"
-NODE_REPL_TRUSTED_SERVICES = '{"browser":"/Users/zeraphim/.codex/plugins/cache/openai-bundled/browser/26.818.31338/scripts/browser-service.mjs","sky":"@oai/sky/service"}'
+BROWSER_USE_CODEX_APP_VERSION = "26.917.71314"
+NODE_REPL_TRUSTED_SERVICES = '{"browser":"/Users/zeraphim/.codex/plugins/cache/openai-bundled/browser/26.917.71314/scripts/browser-service.mjs","sky":"@oai/sky/service"}'
+SKY_CUA_SERVICE_PATH = "/Users/zeraphim/.codex/computer-use/Codex Computer Use.app"
 CODEX_CLI_PATH = "/Applications/ChatGPT.app/Contents/Resources/codex"
 
 [mcp_servers.computer-use]
@@ -306,13 +362,18 @@ url = "https://developers.openai.com/mcp"
 vim_mode_default = true
 alternate_screen = "never"
 session_picker_view = "dense"
-status_line = ["model-with-reasoning", "project-name", "thread-name", "context-used", "used-tokens", "context-window-size"]
+status_line = ["model-with-reasoning", "project-name", "thread-name", "context-used", "used-tokens", "weekly-limit"]
 status_line_use_colors = true
+screen_reader_detection_done = true
 
 [tui.model_availability_nux]
 "gpt-5.5" = 4
 "gpt-5.6-sol" = 4
 gpt-6-astra = 4
+"gpt-6.1-sol" = 4
+
+[notice]
+hide_rate_limit_model_nudge = true
 
 [notice.model_migrations]
 "gpt-5.4" = "gpt-5.5"
@@ -335,10 +396,11 @@ trusted_hash = "sha256:9414154878f7ed6af2691aa2d61f3c57d866fb27b65aa638e7ddd635a
 [shell_environment_policy.set]
 NODE_REPL_TRUSTED_BROWSER_CLIENT_SHA256S = "8e86beb821b9afc846211798e0113bd4b9e79312dfcd135eb447bdb154f64071"
 
-[plugins."vercel-plugin@plugins-cli"]
-enabled = true
+[[skills.config]]
+path = "/Users/zeraphim/.codex/skills/hatch-pet/SKILL.md"
+enabled = false
 
-[plugins."sites@openai-bundled"]
+[plugins."vercel-plugin@plugins-cli"]
 enabled = true
 
 [plugins."visualize@openai-bundled"]
@@ -348,4 +410,13 @@ enabled = true
 enabled = true
 
 [plugins."codex-app-tools@openai-bundled"]
+enabled = true
+
+[plugins."google-drive@openai-curated-remote"]
+enabled = true
+
+[plugins."unified-computer-use@openai-bundled"]
+enabled = true
+
+[plugins."computer-use@openai-bundled"]
 enabled = true
